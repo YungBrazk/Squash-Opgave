@@ -1,0 +1,139 @@
+.squashbackground{
+    background-image: url("../Assets/Tuborg-Squash-Case-1600-1000x625.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{
+    margin: 0px;
+}
+.box{
+    cursor: pointer;
+    background-color: black;
+    min-height: 35vh;
+    min-width: 40vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 30%;
+    max-height: 100%;
+}
+.content{
+    overflow: auto;
+    height: 100%;
+    width: 50%;
+}
+.content > div{
+    overflow: hidden;
+    max-width: 30px;
+    max-height: 30px;
+    float: left;
+}
+.bg-text {
+    background-color: rgb(226, 109, 14);
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    align-items: center;
+    
+  }
+.content > div >p{
+    color: white;
+    font-weight: bold;
+}
+#b1{
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/Assets/VoresDrikkevare.png);
+}
+#b2{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/Assets/nyheder.png);
+}
+#b3{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/Assets/inspi.png);
+}
+#b4{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/Assets/2.png);
+}
+#b5{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/Assets/bæredygtighed.png);
+}
+.box:hover{
+color:white;
+}
+
+#drinks{
+    height: 112vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/Assets/voresdrikkevarepage.png);
+}
+#news{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/Assets/nyhederpage.png);
+}
+#inspi{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/Assets/inspirationpage.png);
+}
+#about{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/Assets/omospage.png);
+}
+#greenplanet{
+    height: 112vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/Assets/bæredygtighedpage.png);
+}
+#back{
+    text-align: center;
+    background-color: transparent;
+    color: transparent;
+    font-size: 30px;
+    margin-top: 20px;
+    width: 24vh;
+    height: 8vh;
+}
+#back:hover{
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background-color: orangered;
+}
+
+#video{
+    background-color: orange;
+}
+.footer{
+    margin-top: 50vh;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+}
